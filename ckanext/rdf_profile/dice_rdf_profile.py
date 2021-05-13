@@ -28,6 +28,7 @@ class DICEDCATProfile(RDFProfile):
 
     def graph_from_dataset(self, dataset_dict, dataset_ref):
         g = self.g
+        print "-------------------------- main dataset_dict"
         print dataset_dict
 
         # g = self.g
